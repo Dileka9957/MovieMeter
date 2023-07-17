@@ -1,0 +1,16 @@
+
+<div class="container" >
+  <h1>Latest movies </h1>
+  <br>
+  <div class="row">
+      <div class="col-sm-3"  *ngFor="let movie of movies">
+        <button>
+          <div  class="move-container">
+            <img [src]="movie.imagePath" alt="Movie Poster" style="width: 100%;">
+            <p>{{ movie.name }}</p>
+          </div>
+        </button>
+      </div>
+</div>
+
+

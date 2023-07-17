@@ -1,0 +1,10 @@
+
+<div style="margin: 100px;">
+  <h1>Latest TV Shows </h1>
+  <br>
+  <div class="row">
+    <div class="col-sm-3" style="background-color:lavender;" *ngFor="let tv_show of tv_series">
+      <img [src]="tv_show.imagePath" alt="Movie Poster" style="width: 100%;">
+      <p>{{ tv_show.name }}</p>
+    </div>
+</div>
