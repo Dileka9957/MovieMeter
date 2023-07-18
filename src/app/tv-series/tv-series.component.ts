@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { TvSeries } from './tv-series.model';
 import { TvSeriesService } from './tv-series.service';
 
@@ -10,7 +11,7 @@ import { TvSeriesService } from './tv-series.service';
 export class TVSeriesComponent {
   tv_series: TvSeries[] = [];
 
-  constructor(private tvService : TvSeriesService){
+  constructor(private tvService : TvSeriesService , private router: Router){
 
   }
 
@@ -18,4 +19,8 @@ export class TVSeriesComponent {
     this.tv_series = this.tvService.getAllTvSeries();
   }
 
+  getTV(name: String){
+    this.router.navigate(['tv-details', name]);
+    console.log('name',name)
+  }
 }

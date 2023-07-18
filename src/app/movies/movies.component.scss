@@ -4,6 +4,9 @@
   background-color: rgb(12, 19, 19)
 }
 
+.btn{
+  border: none;
+}
 
 .col-sm-3{
   padding-bottom: 30px;
@@ -12,4 +15,16 @@
 .movie-container{
   height: 300px;
 
+}
+
+.mname{
+  color: rgb(153, 151, 151);
+
+  &:hover{
+    color: #4b4343;
+  }
+}
+
+.mimg{
+  border-radius: 10px;
 }
