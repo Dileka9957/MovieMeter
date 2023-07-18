@@ -1,0 +1,29 @@
+.container{
+  padding: 100px;
+  background-color: rgb(12, 19, 19);
+}
+
+.btn{
+  border: none;
+}
+
+.col-sm-3{
+  padding-bottom: 30px;
+}
+
+.tv-container{
+  height: 300px;
+}
+
+.tname{
+  color: rgb(153, 151, 151);
+
+  &:hover{
+    color: #4b4343;
+  }
+}
+
+
+.timg{
+  border-radius: 10px;
+}
