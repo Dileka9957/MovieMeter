@@ -1,12 +1,12 @@
-<div class="tv-container">
-  <img src="https://oberlinreview.org/wp-content/uploads/2022/12/Wednesday-poster-608x900.webp" class="rounded float" alt="Cinque Terre" width="204" height="300">
+<div class="tv-container" *ngIf="tv">
+  <img src={{tv.imagePath}} class="rounded float" alt="Cinque Terre" width="204" height="300">
   <div class="info-container">
     <h5>Tv show Info</h5>
-    <ul class="list-group">
-      <li class="list-group-item">Name:</li>
-      <li class="list-group-item">Genres:</li>
-      <li class="list-group-item">Relese Date:</li>
-      <li class="list-group-item">Language:</li>
+    <ul class="list-group" style="margin-top: 20px;">
+      <li class="list-group-item"><div class="details-container">Name:&nbsp;&nbsp;&nbsp;<p clss="details">{{tv.name}}</p></div></li>
+      <li class="list-group-item"><div class="details-container">Genres:&nbsp;&nbsp;&nbsp;<p clss="details">{{tv.genres}}</p></div></li>
+      <li class="list-group-item"><div class="details-container">Release Date:&nbsp;&nbsp;&nbsp;<p clss="details">{{tv.release_date}}</p></div></li>
+      <li class="list-group-item"><div class="details-container">Language:&nbsp;&nbsp;&nbsp;<p clss="details">{{tv.language}}</p></div></li>
     </ul>
   </div>
 </div>

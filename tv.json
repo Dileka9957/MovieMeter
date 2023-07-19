@@ -1,0 +1,69 @@
+[
+
+ {
+   "id":1,
+   "name":"Game Of Thrones",
+   "genres":"Action,Adeventure",
+   "release_date": "April 17, 2011",
+   "language": "English",
+   "imagePath": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
+  },
+
+  {
+  "id":2,
+  "name":"The 100",
+  "genres":"Action,Drama",
+  "release_date": "March 19, 2014",
+  "language": "English",
+  "imagePath": "https://i.pinimg.com/originals/a3/60/72/a360728a71d61a54d2ed6ab7570f113e.jpg"
+ },
+ {
+  "id":3,
+  "name":"Prison Break",
+ "genres":"Action,Drama",
+ "release_date": "August 29, 2005",
+ "language": "English",
+ "imagePath": "https://giadinh.mediacdn.vn/Images/Uploaded/Share/2010/03/30/cin12.jpg"
+},
+{
+  "id":4,
+  "name":"Teen Wolf",
+"genres":"Action,Drama",
+"release_date": "June 5, 2011",
+"language": "English",
+"imagePath": "https://mattsviews.files.wordpress.com/2020/07/17bea32540db27399c1c763553c23555.jpg"
+},
+{
+  "id":5,
+  "name":"Game Of Thrones",
+   "genres":"Action,Adeventure",
+   "release_date": "April 17, 2011",
+   "language": "English",
+   "imagePath": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id":6,
+    "name":"The 100",
+  "genres":"Action,Drama",
+  "release_date": "March 19, 2014",
+  "language": "English",
+  "imagePath": "https://i.pinimg.com/originals/a3/60/72/a360728a71d61a54d2ed6ab7570f113e.jpg"
+ },
+ {
+  "id":7,
+ "name":"Prison Break",
+ "genres":"Action,Drama",
+ "release_date": "August 29, 2005",
+ "language": "English",
+ "imagePath": "https://giadinh.mediacdn.vn/Images/Uploaded/Share/2010/03/30/cin12.jpg"
+},
+{
+  "id":8,
+  "name":"Teen Wolf",
+"genres":"Action,Drama",
+"release_date": "June 5, 2011",
+"language": "English",
+"imagePath": "https://mattsviews.files.wordpress.com/2020/07/17bea32540db27399c1c763553c23555.jpg"
+}
+
+]

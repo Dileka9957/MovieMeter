@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { TvSeries } from './tv-series.model';
-import { TvSeriesService } from './tv-series.service';
+import { DataStorageService } from '../shared/data-storage.service';
 
 @Component({
   selector: 'app-tv-series',
@@ -11,16 +11,17 @@ import { TvSeriesService } from './tv-series.service';
 export class TVSeriesComponent {
   tv_series: TvSeries[] = [];
 
-  constructor(private tvService : TvSeriesService , private router: Router){
-
+  constructor(private dataService : DataStorageService , private router: Router){
   }
+
 
   ngOnInit(): void {
-    this.tv_series = this.tvService.getAllTvSeries();
+    this.dataService.fetchTVs()
+    .subscribe((tvs: TvSeries[]) => this.tv_series = tvs);
   }
 
-  getTV(name: String){
-    this.router.navigate(['tv-details', name]);
-    console.log('name',name)
+  getTV(id: Number){
+    this.router.navigate(['tv-series/tv-details', id]);
+    console.log('id',id)
   }
 }
