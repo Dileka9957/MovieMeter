@@ -9,8 +9,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/movies' ,pathMatch: 'full'},
   { path: 'movies', component: MoviesComponent },
   { path: 'tv-series', component: TVSeriesComponent },
-  { path: 'movies-details/:movieName', component: MovieDetailsComponent },
-  { path: 'tv-details/:tvName',component:TvDetailsComponent}
+  { path: 'movies/movies-details/:id', component: MovieDetailsComponent },
+  { path: 'tv-series/tv-details/:id',component:TvDetailsComponent}
   // Add more routes as needed
 ];
 

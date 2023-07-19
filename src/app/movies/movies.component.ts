@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { MovieService } from './movie.service';
 import { Movie } from './movie.model';
+import { DataStorageService } from '../shared/data-storage.service';
 
 @Component({
   selector: 'app-movies',
@@ -11,17 +11,17 @@ import { Movie } from './movie.model';
 export class MoviesComponent implements OnInit {
   movies: Movie[] = [];
 
-  constructor(private moviesService : MovieService , private router: Router){
-
+  constructor(private dataService : DataStorageService , private router: Router){
   }
 
   ngOnInit(): void {
-    this.movies = this.moviesService.getAllMovies();
+    this.dataService.fetchMovies()
+    .subscribe((movies: Movie[]) => this.movies = movies);
   }
 
-  getMovie(name: String){
-    this.router.navigate(['movies-details', name]);
-    console.log('name',name)
+  getMovie(id: Number){
+    this.router.navigate(['movies/movies-details', id]);
+    console.log('id',id)
   }
 
 }

@@ -4,7 +4,7 @@
   <br>
   <div class="row">
     <div class="col-sm-3" *ngFor="let tv_show of tv_series">
-      <button class="btn" (click)="getTV(tv_show.name)">
+      <button class="btn" (click)="getTV(tv_show.id)">
         <div class="tv-container">
           <img class="timg" [src]="tv_show.imagePath" alt="Movie Poster" style="width: 100%;">
           <p class="tname">{{ tv_show.name }}</p>

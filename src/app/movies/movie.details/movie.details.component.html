@@ -1,12 +1,12 @@
-<div class="movie-container">
-  <img src="https://moviescounter.lat/wp-content/uploads/2023/03/the-magicians-elephant-free-download-hd-720p-400x600.jpg" class="rounded float" alt="Cinque Terre" width="204" height="300">
+<div class="movie-container" *ngIf="movie">
+  <img src={{movie.imagePath}} class="rounded float" alt="Cinque Terre" width="204" height="300">
   <div class="info-container">
     <h5>Movie Info</h5>
-    <ul class="list-group">
-      <li class="list-group-item">Name:</li>
-      <li class="list-group-item">Genres:</li>
-      <li class="list-group-item">Relese Date:</li>
-      <li class="list-group-item">Language:</li>
+    <ul class="list-group" style="margin-top: 20px;">
+      <li class="list-group-item"><div class="details-container">Name:&nbsp;&nbsp;&nbsp;<p clss="details">{{movie.name}}</p></div></li>
+      <li class="list-group-item"><div class="details-container">Genres:&nbsp;&nbsp;&nbsp;<p clss="details">{{movie.genres}}</p></div></li>
+      <li class="list-group-item"><div class="details-container">Release Date:&nbsp;&nbsp;&nbsp;<p clss="details">{{movie.release_date}}</p></div></li>
+      <li class="list-group-item"><div class="details-container">Language:&nbsp;&nbsp;&nbsp;<p clss="details">{{movie.language}}</p></div></li>
     </ul>
   </div>
 </div>

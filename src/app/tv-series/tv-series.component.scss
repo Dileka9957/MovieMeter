@@ -13,6 +13,7 @@
 
 .tv-container{
   height: 300px;
+  width: 100%;
 }
 
 .tname{
@@ -26,4 +27,7 @@
 
 .timg{
   border-radius: 10px;
+  height: 100%; /* Set the height of the image to 100% of its container */
+  width: 100%; /* Set the width of the image to 100% of its container */
+  object-fit: cover;
 }

@@ -1,0 +1,67 @@
+[
+  {
+    "id":1,
+    "name": "Spider Man Into the Spider Verse 2019",
+    "genres": "Action, Adventure",
+    "release_date": "14 December 2018",
+    "language": "English",
+    "imagePath": "https://moviescounter.pw/wp-content/uploads/2020/03/Spider-Man-Into-the-Spider-Verse-2019-Movie-Free-Download-720p-BluRay.jpg"
+  },
+  {
+    "id":2,
+    "name": "Aquaman 2018",
+    "genres": "Action, Adventure",
+    "release_date": "21 December 2018",
+    "language": "English",
+    "imagePath": "https://moviescounter.pw/wp-content/uploads/2018/12/Aquaman-2018-Movie-Free-Download-720p-BluRay-1.jpg"
+  },
+  {
+    "id":3,
+    "name": "Tomb Raider 2017",
+    "genres": "Action, Adventure",
+    "release_date": "March 14, 2018",
+    "language": "English",
+    "imagePath": "https://cdn.wccftech.com/wp-content/uploads/2020/02/81e454d42a75315c7e5ae28ac7614fcd-scaled.jpg"
+  },
+  {
+    "id":4,
+    "name": "Love and Monsters 2020",
+    "genres": "Adventure",
+    "release_date": "October 16, 2020",
+    "language": "English",
+    "imagePath": "https://static2.tribute.ca/poster/660x980/love-and-monsters-148381.jpg"
+  },
+  {
+    "id":5,
+    "name": "Spider Man Into the Spider Verse 2019",
+    "genres": "Action, Adventure",
+    "release_date": "14 December 2018",
+    "language": "English",
+    "imagePath": "https://moviescounter.pw/wp-content/uploads/2020/03/Spider-Man-Into-the-Spider-Verse-2019-Movie-Free-Download-720p-BluRay.jpg"
+  },
+  {
+    "id":6,
+    "name": "Aquaman 2018",
+    "genres": "Action, Adventure",
+    "release_date": "21 December 2018",
+    "language": "English",
+    "imagePath": "https://moviescounter.pw/wp-content/uploads/2018/12/Aquaman-2018-Movie-Free-Download-720p-BluRay-1.jpg"
+  },
+  {
+    "id":7,
+    "name": "Tomb Raider 2017",
+    "genres": "Action, Adventure",
+    "release_date": "March 14, 2018",
+    "language": "English",
+    "imagePath": "https://cdn.wccftech.com/wp-content/uploads/2020/02/81e454d42a75315c7e5ae28ac7614fcd-scaled.jpg"
+  },
+  {
+    "id":8,
+    "name": "Love and Monsters 2020",
+    "genres": "Adventure",
+    "release_date": "October 16, 2020",
+    "language": "English",
+    "imagePath": "https://static2.tribute.ca/poster/660x980/love-and-monsters-148381.jpg"
+  }
+
+]
