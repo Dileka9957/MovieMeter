@@ -1,9 +1,5 @@
 {
   "extends": [
     "development"
-  ],
-  "hints": {
-    "axe/forms": "off",
-    "meta-viewport": "off"
-  }
+  ]
 }
