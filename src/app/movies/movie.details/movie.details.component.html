@@ -9,4 +9,39 @@
       <li class="list-group-item"><div class="details-container">Language:&nbsp;&nbsp;&nbsp;<p clss="details">{{movie.language}}</p></div></li>
     </ul>
   </div>
+  <!-- <video controls preload="auto">
+    <source  src="https://www.youtube.com/embed/oYRx9Yz0QuA"  allowfullscreen>
+  </video> -->
+  <!-- <iframe src="getSafeUrl(movie.trailer)" allowfullscreen></iframe> -->
+
+  <div class="form-container">
+    <h5>Rate And Review</h5>
+    <form [formGroup]="applyForm" (submit)="submitApplication()">
+      <input id="user" placeholder="What is your username?" type="text" formControlName="username">
+      <textarea id="comment" placeholder="What did you think about this movie?" formControlName="comment"></textarea>
+      <div class="stars">
+       <p style="color: rgb(110, 114, 128);;">Give a rating &nbsp;&nbsp;</p>
+        <input type="radio" id="star5" name="rating" value="1" style="display: none;" formControlName="rating">
+        <label for="star1" title="5 stars"><i class="fas fa-star star-icon" (click)="updateRating(1)"></i></label>
+        <input type="radio" id="star4" name="rating" value="2" style="display: none;" formControlName="rating">
+        <label for="star2" title="5 stars"><i class="fas fa-star star-icon" (click)="updateRating(1)"></i></label>
+        <input type="radio" id="star3" name="rating" value="3" style="display: none;" formControlName="rating" >
+        <label for="star3" title="5 stars"><i class="fas fa-star star-icon" (click)="updateRating(3)"></i></label>
+        <input type="radio" id="star2" name="rating" value="4" style="display: none;" formControlName="rating">
+        <label for="star4" title="5 stars"><i class="fas fa-star star-icon" (click)="updateRating(4)"></i></label>
+        <input type="radio" id="star1" name="rating" value="5" style="display: none;" formControlName="rating">
+        <label for="star5" title="5 stars"><i class="fas fa-star star-icon" (click)="updateRating(5)"></i></label>
+      </div>
+      <button type="submit" class="primary">Save</button>
+    </form>
+  </div>
+
+
+  <!-- <div class="rating-container">
+    <h5>Give a Rating</h5>
+
+  </div> -->
+
+
 </div>
+<app-movie-reviews></app-movie-reviews>
